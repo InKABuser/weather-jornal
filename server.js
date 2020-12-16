@@ -25,7 +25,7 @@ const server = app.listen(port, listening);
 // Callback to debug
 function listening() {
     console.log('server is running')
-    console.log(`running on localhos:${port}`);
+    console.log(`running on localhost:${port}`);
 };
 // Initialize all route with a callback function
 app.get('/all', GRoute)
